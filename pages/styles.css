@@ -172,7 +172,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: rgb(109, 18, 255);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -412,4 +412,14 @@ textarea {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.luckyzero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
 }
