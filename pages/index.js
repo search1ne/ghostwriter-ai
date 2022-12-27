@@ -47,7 +47,7 @@ const Home = () => {
         {/* Add this code here*/}
         <div className="prompt-container">
           <textarea 
-            placeholder="ask the great stoics and philosophers: on greed. on envy. on love... et" 
+            placeholder="ask the great stoics and philosophers: on love, on patience, on anger, on suffering..." 
             className="prompt-box" 
             value={ userInput }
             onChange={ onUserChangedText }
