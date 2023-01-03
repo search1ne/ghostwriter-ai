@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
-import luckyzero from '../assets/lucky2647.jpg'
+import luckyzero from '../assets/2647.png'
 import { useState } from 'react';
 
 
@@ -39,16 +39,17 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>the beats of time</h1>
+            <h1>spellbinder</h1>
           </div>
+          
           <div className="header-subtitle">
-            <h2>discover ancient knowledge through rhymes</h2>
+            <h2>turn your ideas into reality</h2>
           </div>
         </div>
         
         <div className="prompt-container">
           <textarea
-            placeholder="ask the great stoics and philosophers: on love, on patience, on anger, on suffering..."
+            placeholder="write the idea and we'll come up with a course of action to get it to production!"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
@@ -74,6 +75,7 @@ const Home = () => {
           </div>
         )}
       </div>
+      
       <div className="badge-container grow">
         <a href="https://buildspace.so/builds/ai-writer" target="_blank" rel="noreferrer">
           <div className="badge">
@@ -81,6 +83,7 @@ const Home = () => {
             <p>build with buildspace</p>
           </div>
         </a>
+        
       </div>
     </div>
   );

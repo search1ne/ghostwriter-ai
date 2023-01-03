@@ -414,12 +414,14 @@ textarea {
     }
 }
 
-.luckyzero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 200px;
-    background-color: #000;
+.luckyzero img {
+    width: 100px;
+    height: 100px;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+    fill: black;
+    color: black;
+    transform: none;
+    transform-origin: 50% 50% 0px;
+    padding-right: 5px;
 }
