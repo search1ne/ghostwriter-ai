@@ -13,16 +13,9 @@ Customizable to fit your specific needs
 ### Getting Started
 To get started with Ghostwriter-AI, you'll need to sign up for an OpenAI API key. Once you have your API key, you can use Ghostwriter-AI's API to generate content for your projects.
 
-Here's an example of how to use Ghostwriter-AI's API to generate content:
+Here's an example prompt of how to use Ghostwriter-AI to generate content:
 
-import ghostwriter_ai
-
-api_key = "YOUR_API_KEY"
-model = "gpt3"
-
-generated_content = ghostwriter_ai.generate_content(api_key, model, prompt="Write a short story about a young boy who discovers a magic amulet.")
-
-print(generated_content)
+"Write a short story about a young boy who discovers a magic amulet."
 
 ### Customization
 Ghostwriter-AI offers a range of customization options to fit your specific needs. You can adjust the length of the generated content, the language, and the tone. For a full list of customization options, see the documentation.
