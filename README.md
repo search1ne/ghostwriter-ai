@@ -1,4 +1,4 @@
-# GhostWriter-AI 
+# GPT Writer Starter
 ### yarn-dev 
 
 ### Welcome 👋
